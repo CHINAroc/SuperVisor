@@ -1,4 +1,4 @@
-package com.gdut.supervisor.utils;
+package com.gdut.supervisor.indicator;
 
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
@@ -80,10 +80,14 @@ public class MyActionProvider extends ActionProvider implements OnMenuItemClickL
 		case R.id.menu_about:
 			Toast.makeText(context, "关于", 0).show();
 			break;
+		// 设置菜单
 		case R.id.menu_setting:
 			Toast.makeText(context, "设置", 0).show();
 			break;
-		// 设置菜单
+		// 注销菜单
+		case R.id.menu_logout:
+			Toast.makeText(context, "注销", 0).show();
+			break;
 		default:
 			return false;
 		}

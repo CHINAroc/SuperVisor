@@ -1,9 +1,8 @@
-package com.gdut.supervisor.ui;
+package com.gdut.supervisor.view;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,7 +12,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import com.gdut.supervisor.R;
-import com.gdut.supervisor.utils.SearchFormAdapter;
+import com.gdut.supervisor.adapter.SearchFormAdapter;
 
 /**
  * ½ÌÎñµÄFragment
